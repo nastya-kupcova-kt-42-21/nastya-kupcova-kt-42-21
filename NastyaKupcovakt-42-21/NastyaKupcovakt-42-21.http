@@ -1,0 +1,6 @@
+@NastyaKupcovakt_42_21_HostAddress = http://localhost:5118
+
+GET {{NastyaKupcovakt_42_21_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
