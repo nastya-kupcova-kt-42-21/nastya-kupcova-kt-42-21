@@ -10,3 +10,207 @@
 2024-10-15 18:45:25.9556 Info Configuration initialized.
 2024-10-15 18:45:26.1042 Info Validating config: TargetNames=my-file, ConfigItems=22 ConfigSection=NLog
 2024-10-15 18:45:26.1042 Info Validating config: TargetNames=my-file, ConfigItems=22 ConfigSection=NLog
+2024-10-18 10:24:59.3297 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 10:24:59.3496 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 10:24:59.3496 Info Validating config: TargetNames=my-file, ConfigItems=22 ConfigSection=NLog
+2024-10-18 10:24:59.3735 Info Configuration initialized.
+2024-10-18 10:24:59.8080 Info Validating config: TargetNames=my-file, ConfigItems=22 ConfigSection=NLog
+2024-10-18 10:24:59.8113 Info Validating config: TargetNames=my-file, ConfigItems=22 ConfigSection=NLog
+2024-10-18 21:49:41.9786 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 21:49:41.9955 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 21:49:42.0020 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:49:42.0161 Info Configuration initialized.
+2024-10-18 21:49:42.1241 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:49:42.1241 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:49:42.2074 Info Shutdown() called. Logger closing...
+2024-10-18 21:49:42.2074 Info Closing old configuration.
+2024-10-18 21:49:42.2194 Info Logger has been closed down.
+2024-10-18 21:50:24.8955 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 21:50:24.9150 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 21:50:24.9222 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:50:24.9354 Info Configuration initialized.
+2024-10-18 21:50:25.0140 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:50:25.0140 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:50:25.0949 Info Shutdown() called. Logger closing...
+2024-10-18 21:50:25.0949 Info Closing old configuration.
+2024-10-18 21:50:25.1080 Info Logger has been closed down.
+2024-10-18 21:58:32.2066 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 21:58:32.2258 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 21:58:32.2324 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:58:32.2324 Info Configuration initialized.
+2024-10-18 21:58:32.3244 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:58:32.3274 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:58:32.4217 Info Shutdown() called. Logger closing...
+2024-10-18 21:58:32.4217 Info Closing old configuration.
+2024-10-18 21:58:32.4217 Info Logger has been closed down.
+2024-10-18 21:59:14.5160 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 21:59:14.5343 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 21:59:14.5343 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:59:14.5536 Info Configuration initialized.
+2024-10-18 21:59:14.6242 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:59:14.6474 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:59:14.7298 Info Shutdown() called. Logger closing...
+2024-10-18 21:59:14.7298 Info Closing old configuration.
+2024-10-18 21:59:14.7415 Info Logger has been closed down.
+2024-10-18 21:59:34.5949 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 21:59:34.6151 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 21:59:34.6151 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:59:34.6354 Info Configuration initialized.
+2024-10-18 21:59:34.7349 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:59:34.7349 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 21:59:34.8209 Info Shutdown() called. Logger closing...
+2024-10-18 21:59:34.8209 Info Closing old configuration.
+2024-10-18 21:59:34.8402 Info Logger has been closed down.
+2024-10-18 22:02:42.6923 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 22:02:42.7111 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 22:02:42.7196 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:02:42.7332 Info Configuration initialized.
+2024-10-18 22:02:42.8153 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:02:42.8153 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:02:42.9052 Info Shutdown() called. Logger closing...
+2024-10-18 22:02:42.9052 Info Closing old configuration.
+2024-10-18 22:02:42.9052 Info Logger has been closed down.
+2024-10-18 22:03:11.8031 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 22:03:11.8205 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 22:03:11.8262 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:03:11.8262 Info Configuration initialized.
+2024-10-18 22:03:11.9079 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:03:11.9079 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:03:11.9761 Info Shutdown() called. Logger closing...
+2024-10-18 22:03:11.9761 Info Closing old configuration.
+2024-10-18 22:03:11.9884 Info Logger has been closed down.
+2024-10-18 22:35:03.6837 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 22:35:03.7005 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 22:35:03.7067 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:35:03.7185 Info Configuration initialized.
+2024-10-18 22:35:03.7897 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:35:03.7897 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:35:03.8641 Info Shutdown() called. Logger closing...
+2024-10-18 22:35:03.8641 Info Closing old configuration.
+2024-10-18 22:35:03.8759 Info Logger has been closed down.
+2024-10-18 22:35:27.0811 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-18 22:35:27.1009 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 22:35:27.1076 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:35:27.1076 Info Configuration initialized.
+2024-10-18 22:35:27.2037 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:35:27.2037 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-18 22:35:27.2944 Info Shutdown() called. Logger closing...
+2024-10-18 22:35:27.2960 Info Closing old configuration.
+2024-10-18 22:35:27.2960 Info Logger has been closed down.
+2024-10-19 08:30:23.2813 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 08:30:23.2813 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 08:30:23.2996 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:30:23.2996 Info Configuration initialized.
+2024-10-19 08:30:23.3864 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:30:23.3864 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:30:23.4405 Info Shutdown() called. Logger closing...
+2024-10-19 08:30:23.4405 Info Closing old configuration.
+2024-10-19 08:30:23.4405 Info Logger has been closed down.
+2024-10-19 08:30:56.2476 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 08:30:56.2585 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 08:30:56.2585 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:30:56.2701 Info Configuration initialized.
+2024-10-19 08:30:56.3234 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:30:56.3234 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:30:56.3708 Info Shutdown() called. Logger closing...
+2024-10-19 08:30:56.3708 Info Closing old configuration.
+2024-10-19 08:30:56.3787 Info Logger has been closed down.
+2024-10-19 08:46:10.0185 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 08:46:10.0306 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 08:46:10.0306 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:46:10.0306 Info Configuration initialized.
+2024-10-19 08:46:10.0885 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:46:10.0885 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:46:10.1328 Info Shutdown() called. Logger closing...
+2024-10-19 08:46:10.1328 Info Closing old configuration.
+2024-10-19 08:46:10.1406 Info Logger has been closed down.
+2024-10-19 08:46:26.2067 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 08:46:26.2181 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 08:46:26.2181 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:46:26.2181 Info Configuration initialized.
+2024-10-19 08:46:26.2748 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:46:26.2748 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 08:46:26.3198 Info Shutdown() called. Logger closing...
+2024-10-19 08:46:26.3198 Info Closing old configuration.
+2024-10-19 08:46:26.3286 Info Logger has been closed down.
+2024-10-19 09:11:26.5337 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:11:26.5456 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:11:26.5456 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:11:26.5456 Info Configuration initialized.
+2024-10-19 09:11:26.6034 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:11:26.6034 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:11:26.6512 Info Shutdown() called. Logger closing...
+2024-10-19 09:11:26.6512 Info Closing old configuration.
+2024-10-19 09:11:26.6592 Info Logger has been closed down.
+2024-10-19 09:11:38.0136 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:11:38.0136 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:11:38.0300 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:11:38.0300 Info Configuration initialized.
+2024-10-19 09:11:38.0856 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:11:38.0856 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:11:38.1328 Info Shutdown() called. Logger closing...
+2024-10-19 09:11:38.1328 Info Closing old configuration.
+2024-10-19 09:11:38.1412 Info Logger has been closed down.
+2024-10-19 09:25:17.0565 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:25:17.0684 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:25:17.0684 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:25:17.0801 Info Configuration initialized.
+2024-10-19 09:25:17.1241 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:25:17.1241 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:25:17.1698 Info Shutdown() called. Logger closing...
+2024-10-19 09:25:17.1703 Info Closing old configuration.
+2024-10-19 09:25:17.1703 Info Logger has been closed down.
+2024-10-19 09:25:35.8199 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:25:35.8314 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:25:35.8314 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:25:35.8432 Info Configuration initialized.
+2024-10-19 09:25:35.8875 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:25:35.8899 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:25:35.9371 Info Shutdown() called. Logger closing...
+2024-10-19 09:25:35.9371 Info Closing old configuration.
+2024-10-19 09:25:35.9371 Info Logger has been closed down.
+2024-10-19 09:26:01.5903 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:26:01.6024 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:26:01.6024 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:26:01.6144 Info Configuration initialized.
+2024-10-19 09:26:01.6584 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:26:01.6584 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:26:01.7030 Info Shutdown() called. Logger closing...
+2024-10-19 09:26:01.7030 Info Closing old configuration.
+2024-10-19 09:26:01.7030 Info Logger has been closed down.
+2024-10-19 09:27:45.9525 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:27:45.9525 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:27:45.9672 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:27:45.9672 Info Configuration initialized.
+2024-10-19 09:27:46.0179 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:27:46.0179 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:27:46.0663 Info Shutdown() called. Logger closing...
+2024-10-19 09:27:46.0663 Info Closing old configuration.
+2024-10-19 09:27:46.0663 Info Logger has been closed down.
+2024-10-19 09:27:59.2659 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:27:59.2659 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:27:59.2817 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:27:59.2817 Info Configuration initialized.
+2024-10-19 09:27:59.3328 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:27:59.3328 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:27:59.3778 Info Shutdown() called. Logger closing...
+2024-10-19 09:27:59.3778 Info Closing old configuration.
+2024-10-19 09:27:59.3778 Info Logger has been closed down.
+2024-10-19 09:42:04.0520 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:42:04.0709 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:42:04.0775 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:42:04.0775 Info Configuration initialized.
+2024-10-19 09:42:04.2221 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:42:04.2221 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:42:04.3265 Info Shutdown() called. Logger closing...
+2024-10-19 09:42:04.3275 Info Closing old configuration.
+2024-10-19 09:42:04.3275 Info Logger has been closed down.
+2024-10-19 09:42:10.9710 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-10-19 09:42:10.9887 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-19 09:42:10.9887 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:42:11.0104 Info Configuration initialized.
+2024-10-19 09:42:11.0832 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:42:11.0832 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-10-19 09:42:11.1687 Info Shutdown() called. Logger closing...
+2024-10-19 09:42:11.1699 Info Closing old configuration.
+2024-10-19 09:42:11.1699 Info Logger has been closed down.
