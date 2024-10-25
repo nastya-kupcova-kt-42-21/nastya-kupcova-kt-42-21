@@ -1,7 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using NastyaKupcovakt_42_21.Database;
+//using NastyaKupcovakt_42_21.ServiceExtensions;
 using NLog;
 using NLog.Web;
+
+using static NastyaKupcovakt_42_21.ServiceExtensions.ServiceExtensions;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +30,8 @@ try
     // Регистрация DbContext
     builder.Services.AddDbContext<StudentDbContext>(options =>
         options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+    builder.Services.AddServices();
 
     var app = builder.Build();
 

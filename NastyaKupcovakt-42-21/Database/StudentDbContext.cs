@@ -6,10 +6,7 @@ namespace NastyaKupcovakt_42_21.Database
 {
     public class StudentDbContext : DbContext
     {
-        public StudentDbContext(DbContextOptions<StudentDbContext> options)
-            : base(options)
-        {
-        }
+       
 
         public DbSet<Student> Students { get; set; }
         public DbSet<Group> Groups { get; set; }
@@ -21,6 +18,9 @@ namespace NastyaKupcovakt_42_21.Database
             modelBuilder.ApplyConfiguration(new GroupConfiguration());
             modelBuilder.ApplyConfiguration(new SubjectConfiguration());
         }
-
+        public StudentDbContext(DbContextOptions<StudentDbContext> options)
+           : base(options)
+        {
+        }
     }
 }
