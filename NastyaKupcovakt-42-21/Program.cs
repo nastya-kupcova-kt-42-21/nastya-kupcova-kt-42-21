@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using NastyaKupcovakt_42_21.Database;
+using System.Reflection.PortableExecutable;
 //using NastyaKupcovakt_42_21.ServiceExtensions;
 using NLog;
 using NLog.Web;
 
 using static NastyaKupcovakt_42_21.ServiceExtensions.ServiceExtensions;
+using Microsoft.AspNetCore.Diagnostics;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -41,6 +43,9 @@ try
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+
+    //app.UseMiddleware<>();ExceptionHandlerMiddleware
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
 
     app.UseAuthorization();
 
