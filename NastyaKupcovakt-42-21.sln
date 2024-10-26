@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NastyaKupcovakt-42-21", "NastyaKupcovakt-42-21\NastyaKupcovakt-42-21.csproj", "{BC80A4E4-ECA2-41AA-B684-E3259466FF7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nastya-kupcova-kt-42-21.Tests", "nastya-kupcova-kt-42-21.Tests\nastya-kupcova-kt-42-21.Tests.csproj", "{3C382AA3-B063-48DF-A7D3-6EC006948E9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BC80A4E4-ECA2-41AA-B684-E3259466FF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC80A4E4-ECA2-41AA-B684-E3259466FF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC80A4E4-ECA2-41AA-B684-E3259466FF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C382AA3-B063-48DF-A7D3-6EC006948E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C382AA3-B063-48DF-A7D3-6EC006948E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C382AA3-B063-48DF-A7D3-6EC006948E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C382AA3-B063-48DF-A7D3-6EC006948E9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,9 +19,9 @@ namespace NastyaKupcovakt_42_21.Models
         // Связь многие ко многим с Subject
         public virtual ICollection<Subject>? Subjects { get; set; }
 
-/*        public bool IsValidGroupName()
+        public bool IsValidGroupName()
         {
             return Regex.Match(GroupName, @"\D*-\d*-\d\d").Success;
-        }*/
+        }
     }
 }
