@@ -31,7 +31,9 @@ namespace NastyaKupcovakt_42_21.Interfaces
             (StudentFIOFilter filter, CancellationToken cancellationToken = default)
         {
             var students = _dbContext.Set<Student>()
-                .Where(w => (w.Surname == filter.FIO) || (w.Name == filter.FIO) || (w.Midname == filter.FIO))
+                .Where(w => (w.Surname == filter.F))
+                .Where(w => (w.Name == filter.I))
+                .Where(w => (w.Midname == filter.O))
                 .Where(w => w.IsDeleted == filter.StudentIsDeleted).ToArrayAsync(cancellationToken);
 
             return students;

@@ -2,7 +2,12 @@
 {
     public class StudentFIOFilter
     {
-        public string? FIO { get; set; }
+        public string? F { get; set; }
+
+        public string? I { get; set; }
+
+        public string? O { get; set; }
+
         public bool StudentIsDeleted = false;
     }
 }
