@@ -45,7 +45,7 @@ try
     }
 
    // app.UseMiddleware<>();ExceptionHandlerMiddleware
-    app.UseMiddleware<ExceptionHandlerMiddleware>(); //4 лаба закоммитить
+   // app.UseMiddleware<ExceptionHandlerMiddleware>(); //4 лаба закоммитить
 
     app.UseAuthorization();
 

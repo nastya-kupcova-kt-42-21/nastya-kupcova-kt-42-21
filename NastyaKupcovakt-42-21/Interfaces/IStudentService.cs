@@ -22,7 +22,9 @@ namespace NastyaKupcovakt_42_21.Interfaces
         {
             var students = _dbContext
                 .Set<Student>()
-                .Where(w => w.Group.GroupName == filter.GroupName)
+                .Where(w => (w.Group.GroupName == filter.GroupName))
+                .Where(w => (w.Group.GroupJob == filter.GroupJob))
+                .Where(w => (w.Group.GroupYear == filter.GroupYear))
                 .Where(w => w.IsDeleted == filter.StudentIsDeleted)
                 .ToArrayAsync(cancellationToken);
             return students;

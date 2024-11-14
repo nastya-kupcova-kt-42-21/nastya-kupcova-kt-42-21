@@ -3,5 +3,6 @@
     public class StudentAddFilter
     {
         public string GroupName { get; set; }
+
     }
 }

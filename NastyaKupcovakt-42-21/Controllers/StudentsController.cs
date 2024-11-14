@@ -26,8 +26,7 @@ namespace NastyaKupcovakt_42_21.Controllers
             GetStudentsByGroupAsync(StudentGroupFilter filter,
             CancellationToken cancellationToken = default)
         {
-            var students = await _studentService.
-                GetStudentsByGroupAsync(filter, cancellationToken);
+            var students = await _studentService.GetStudentsByGroupAsync(filter, cancellationToken);
             return Ok(students);
         }
 

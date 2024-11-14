@@ -1,30 +1,28 @@
-﻿using NLog.Filters;
+﻿using Microsoft.EntityFrameworkCore;
+using NastyaKupcovakt_42_21.Database;
+using NastyaKupcovakt_42_21.Filters.StudentFilters;
+using NastyaKupcovakt_42_21.Interfaces;
+using NastyaKupcovakt_42_21.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using NastyaKupcovakt_42_21.Database;
-using NastyaKupcovakt_42_21.Interfaces;
-using NastyaKupcovakt_42_21.Models;
-using NastyaKupcovakt_42_21.Filters;
-using NastyaKupcovakt_42_21.Filters.StudentFilters;
 
 namespace nastya_kupcova_kt_42_21.Tests
 {
-    public class StudentIntegrationTests
+    public class StudentIsDeletedTest
     {
         public readonly DbContextOptions<StudentDbContext> _dbContextOptions;
-        public StudentIntegrationTests()
+        public StudentIsDeletedTest()
         {
             _dbContextOptions = new DbContextOptionsBuilder<StudentDbContext>()
-            .UseInMemoryDatabase(databaseName: "student_db")
+            .UseInMemoryDatabase(databaseName: "studentdel_db")
             .EnableSensitiveDataLogging()
             .Options;
         }
         [Fact]
-        public async Task GetStudentsByGroupAsync_KT3120_TwoObjects()
+        public async Task GetStudentsByIsDeletedAsync_True_TwoObjects()
         {
             // Arrange
             var ctx = new StudentDbContext(_dbContextOptions);
@@ -83,18 +81,16 @@ namespace nastya_kupcova_kt_42_21.Tests
             await ctx.SaveChangesAsync();
 
             // Act
-            var filter = new StudentGroupFilter
+            var filter = new StudentIsDeletedFilter
             {
-                GroupName = "КТ",
-                GroupJob = "31",
-                GroupYear = "20",
+                StudentIsDeleted = true,
 
             };
 
-            var studentsResult = await studentService.GetStudentsByGroupAsync(filter, CancellationToken.None);
+            var studentsResult = await studentService.GetStudentsByIsDeletedAsync(filter, CancellationToken.None);
 
             // Assert
-            Assert.Equal(2, studentsResult.Length);
+            Assert.Equal(1, studentsResult.Length);
         }
     }
 }
