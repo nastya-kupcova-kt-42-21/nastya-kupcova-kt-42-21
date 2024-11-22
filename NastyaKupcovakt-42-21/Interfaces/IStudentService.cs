@@ -47,5 +47,5 @@ namespace NastyaKupcovakt_42_21.Interfaces
             return students;
         }
     }
-    
+
 }

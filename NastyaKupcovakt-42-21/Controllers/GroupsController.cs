@@ -16,7 +16,9 @@ namespace NastyaKupcovakt_42_21.Controllers
     {
         private readonly ILogger<GroupsController> _logger;
         private readonly IGroupService _studentService;
+
         private StudentDbContext _context;
+
         public GroupsController(ILogger<GroupsController> logger, IGroupService studentService, StudentDbContext context)
         {
             _logger = logger;
@@ -35,13 +37,33 @@ namespace NastyaKupcovakt_42_21.Controllers
             var students = await _studentService.GetGroupsByYearAsync(filter, cancellationToken);
             return Ok(students);
         }
-        //[HttpPost("GetGroupsByIsDeleted")]
-        //public async Task<IActionResult> GetGroupsByIsDeletedAsync(GroupIsDeletedFilter filter, CancellationToken cancellationToken = default)
-        //{
-        //    var students = await _studentService.GetGroupsByIsDeletedAsync(filter, cancellationToken);
-        //    return Ok(students);
-        //}
-        [HttpPost("AddGroup")]
+
+        [HttpPost("AddSubjectToGroup")]
+        public async Task<IActionResult> AddSubjectToGroup(int groupId, int subjectId, CancellationToken cancellationToken = default)
+        {
+            var result = await _studentService.AddSubjectToGroupAsync(groupId, subjectId, cancellationToken);
+
+            if (!result)
+            {
+                return NotFound("Группа или предмет не найдены.");
+            }
+
+            return Ok("Связь успешно добавлена.");
+        }
+        [HttpPost("GetSubjectsByGroup/{groupId}")]
+        public async Task<IActionResult> GetSubjectsByGroupAsync(int groupId, CancellationToken cancellationToken = default)
+        {
+            var subjects = await _studentService.GetSubjectsByGroupAsync(groupId, cancellationToken);
+            return Ok(subjects);
+        }
+
+    //[HttpPost("GetGroupsByIsDeleted")]
+    //public async Task<IActionResult> GetGroupsByIsDeletedAsync(GroupIsDeletedFilter filter, CancellationToken cancellationToken = default)
+    //{
+    //    var students = await _studentService.GetGroupsByIsDeletedAsync(filter, cancellationToken);
+    //    return Ok(students);
+    //}
+    [HttpPost("AddGroup")]
         public IActionResult CreateGroup([FromBody] Group student)
         {
             if (!ModelState.IsValid)
@@ -82,4 +104,3 @@ namespace NastyaKupcovakt_42_21.Controllers
         }
     }
 }
-

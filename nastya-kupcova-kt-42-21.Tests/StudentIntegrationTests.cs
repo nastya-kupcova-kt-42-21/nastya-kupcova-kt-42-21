@@ -55,18 +55,18 @@ namespace nastya_kupcova_kt_42_21.Tests
     {
        new Student
     {
-        Surname = "A",
-        Name = "A",
-        Midname = "A",
+        Surname = "С",
+        Name = "С",
+        Midname = "С",
         GroupId = 3, // Соответствует "КТ-31-20"
         IsDeleted = false,
     },
     new Student
     {
-        Surname = "B",
-        Name = "B",
+        Surname = "С",
+        Name = "С",
         Midname = "B",
-        GroupId = 3, // Соответствует "КТ-31-20"
+        GroupId = 1, // Соответствует "КТ-31-20"
         IsDeleted = false,
     },
     new Student
@@ -74,8 +74,8 @@ namespace nastya_kupcova_kt_42_21.Tests
         Surname = "C",
         Name = "C",
         Midname = "C",
-        GroupId = 1, // Соответствует "КТ-42-21"
-        IsDeleted = true, // Будет проигнорирован
+        GroupId = 3, // Соответствует "КТ-42-21"
+        IsDeleted = false, // Будет проигнорирован
     }
     };
             await ctx.Set<Student>().AddRangeAsync(students);

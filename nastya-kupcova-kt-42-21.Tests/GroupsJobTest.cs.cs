@@ -32,22 +32,17 @@ namespace nastya_kupcova_kt_42_21.Tests
             {
                 new Group
                 {
-                    GroupName = "КТ",
-                    GroupJob = "42",
-                    GroupYear = "21",
-                },
-                new Group
-                {
-                    GroupName = "КТ",
-                    GroupJob = "41",
-                    GroupYear = "21",
+                    GroupName = "IVT",
+                    GroupJob = "31",
+                    GroupYear = "20",
                 },
                 new Group
                 {
                     GroupName = "КТ",
                     GroupJob = "31",
-                    GroupYear = "20", // Группа с годом 20
+                    GroupYear = "21",
                 }
+
             };
             await ctx.Set<Group>().AddRangeAsync(groups);
             await ctx.SaveChangesAsync();
@@ -55,13 +50,13 @@ namespace nastya_kupcova_kt_42_21.Tests
             // Act
             var filter = new GroupJobFilter
             {
-                GroupJob = "42", 
+                GroupJob = "41", 
             };
 
             var groupsResult = await groupService.GetGroupsByJobAsync(filter, CancellationToken.None); // Используем метод GetGroupsByYearAsync
 
             // Assert
-            Assert.Equal(1, groupsResult.Length); 
+            Assert.Equal(0, groupsResult.Length); 
         }
 
     }

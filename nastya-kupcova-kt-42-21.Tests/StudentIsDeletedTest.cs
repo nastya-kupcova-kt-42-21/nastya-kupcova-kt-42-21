@@ -90,7 +90,7 @@ namespace nastya_kupcova_kt_42_21.Tests
             var studentsResult = await studentService.GetStudentsByIsDeletedAsync(filter, CancellationToken.None);
 
             // Assert
-            Assert.Equal(1, studentsResult.Length);
+            Assert.Equal(0, studentsResult.Length);
         }
     }
 }

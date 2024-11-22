@@ -11,37 +11,59 @@ namespace NastyaKupcovakt_42_21.Controllers
     public class SubjectsController : ControllerBase
     {
         private readonly ILogger<SubjectsController> _logger;
-        private readonly ISubjectService _studentService;
+        private readonly ISubjectService _subjectService;
         private StudentDbContext _context;
-        public SubjectsController(ILogger<SubjectsController> logger, ISubjectService studentService, StudentDbContext context)
+
+        public SubjectsController(ILogger<SubjectsController> logger, ISubjectService subjectService, StudentDbContext context)
         {
             _logger = logger;
-            _studentService = studentService;
+            _subjectService = subjectService;
             _context = context;
         }
+
         [HttpPost("GetSubjectsByDescription")]
         public async Task<IActionResult> GetSubjectsByDescriptionAsync(SubjectDescriptionFilter filter, CancellationToken cancellationToken = default)
         {
-            var students = await _studentService.GetSubjectsByDescriptionAsync(filter, cancellationToken);
-            return Ok(students);
+            var subjects = await _subjectService.GetSubjectsByDescriptionAsync(filter, cancellationToken);
+            return Ok(subjects);
         }
-        //[HttpPost("GetSubjectsByIsDeleted")]
-        //public async Task<IActionResult> GetSubjectsByIsDeletedAsync(SubjectIsDeletedFilter filter, CancellationToken cancellationToken = default)
-        //{
-        //    var students = await _studentService.GetSubjectsByIsDeletedAsync(filter, cancellationToken);
-        //    return Ok(students);
-        //}
+
+        // Новая функция для получения групп по предмету
+        [HttpPost("GetGroupsBySubject/{subjectId}")]
+        public async Task<IActionResult> GetGroupsBySubjectAsync(int subjectId, CancellationToken cancellationToken = default)
+        {
+            var groups = await _subjectService.GetGroupsBySubjectIdAsync(subjectId, cancellationToken);
+            return Ok(groups);
+        }
+
         [HttpPost("AddSubject")]
-        public IActionResult CreateSubject([FromBody] Subject student)
+        public async Task<IActionResult> CreateSubject([FromBody] SubjectCreationDto subjectDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            _context.Subjects.Add(student);
-            _context.SaveChanges();
-            return Ok(student);
+
+            // Проверяем, существует ли группа с данным GroupId
+            var group = await _context.Groups.FindAsync(subjectDto.GroupId);
+            if (group == null)
+            {
+                return BadRequest("Группа с указанным ID не найдена.");
+            }
+
+            var subject = new Subject
+            {
+                SubjectName = subjectDto.SubjectName,
+                SubjectDescription = subjectDto.SubjectDescription,
+                IsDeleted = false, // Или любое другое значение по умолчанию
+                Groups = new List<Group> { group } // Привязываем группу к предмету
+            };
+
+            _context.Subjects.Add(subject);
+            await _context.SaveChangesAsync(); // Используйте асинхронное сохранение для избежания блокировок
+            return Ok(subject);
         }
+
         [HttpPut("EditSubject")]
         public IActionResult UpdateSubject(string name, [FromBody] Subject updatedSubject)
         {
@@ -55,6 +77,7 @@ namespace NastyaKupcovakt_42_21.Controllers
             _context.SaveChanges();
             return Ok();
         }
+
         [HttpDelete("DeleteSubject")]
         public IActionResult DeleteSubject(string name, [FromBody] Subject deletedSubject)
         {
@@ -63,11 +86,9 @@ namespace NastyaKupcovakt_42_21.Controllers
             {
                 return NotFound();
             }
-            //existingSubject.IsDeleted = true;
             _context.Subjects.Remove(existingSubject);
             _context.SaveChanges();
             return Ok();
         }
     }
 }
-
